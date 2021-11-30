@@ -82,6 +82,7 @@ nav ul{
     text-decoration-line: underline;
     text-decoration-color: #00B172;
     text-underline-offset: .2em;
+    margin: 2rem;
 
 }
 
@@ -102,8 +103,42 @@ nav ul{
 }
 
 .descriptif{
+    position:relative;
     background-color: #1AB16A;
     margin-top: 5rem ;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin: 5rem 5rem 0 ;
+    color: white;
+}
+
+.descriptif-right img{
+    margin: 4rem 4rem;
+    height: 450px;
+}
+
+.descriptif-left{
+    margin: 4rem 4rem;
+}
+
+.descriptif-intro{
+    margin: 1rem 0;
+    font-size: 2em;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-underline-offset: .2em;
+}
+
+.descriptif-left h1{
+    margin:2rem 0 1rem ;
+}
+
+.descriptif-left article{
+    width: 220px;
+}
+
+.logo-descriptif{
+    position: absolute;
+    height: 100px;
+    top: 50%;
 }
