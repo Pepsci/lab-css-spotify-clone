@@ -6,3 +6,104 @@ Green: #00B172
 White: #FFF
 
 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+
+.nav-bar{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-bar img{
+    height: 60px;
+}
+nav{
+    position: absolute;
+    right: 2rem;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    font-size: large;
+}
+
+.nav-link, a{
+    margin-right: 1rem;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+
+.landing-img{
+    height: 100vh;
+    width: 100%;
+}
+
+.box-landing-img{
+    position: relative;
+    text-align: center;
+}
+
+.text-landing-img{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-landing-img span{
+    font-size: 5em;
+}
+
+.text-landing-img p{
+    margin-top: 40px;
+    font-size: 1.3em;
+}
+
+.what-on-spotify img{
+    height: 60px;
+}
+
+#title-sec-1{
+    text-align: center;
+    font-size: 2em;
+    text-decoration-line: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: .2em;
+
+}
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin:1rem;
+}
+
+.info article{
+    width: 250px;
+}
+
+.info h1{
+    color: #00B172;
+    margin: 15px;
+}
+
+.descriptif{
+    background-color: #1AB16A;
+    margin-top: 5rem ;
+    display: flex;
+    justify-content: space-between;
+}
